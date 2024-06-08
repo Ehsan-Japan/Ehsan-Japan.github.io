@@ -14,6 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 20px; /* Adds left margin to the entire header */
 }
 
 header h1 {
@@ -23,7 +24,7 @@ header h1 {
 }
 
 nav {
-    display: inline-block;
+    display: flex;
 }
 
 nav a {
@@ -51,6 +52,7 @@ nav a:hover::after, header h1:hover::after {
 .container {
     display: flex;
     flex-direction: row;
+    margin-left: 20px; /* Adds left margin to the main content container */
 }
 
 aside {
