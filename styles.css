@@ -6,47 +6,42 @@ body {
     color: #333;
 }
 
-
 header {
     display: flex;
     align-items: center;
     padding: 20px;
     background-color: white;
-    width: 80%; /* Adjust width to be consistent */
-    margin: 0 auto; /* Center the header */
+    width: 80%;
+    margin: 0 auto;
 }
 
 .header-link {
     text-decoration: none;
-    color: inherit; /* Inherit color from parent */
+    color: inherit;
     display: inline-block;
 }
 
-header h1 {
+header h1, nav a {
     margin: 0;
-    font-size: 24px; /* Adjust the font size if necessary */
+    font-size: 24px;
     display: inline-block;
     position: relative;
-    cursor: pointer; /* Change cursor to pointer (hand) on hover */
-    font-weight: bold; /* Make the text bold */
+    cursor: pointer;
+    font-weight: bold;
 }
 
 nav {
-    margin-left: 20px; /* Adjust margin-left to align properly */
+    margin-left: 20px;
     display: flex;
-    align-items: center; /* Aligns the links vertically to the center of the header */
+    align-items: center;
 }
 
 nav a {
     margin-left: 20px;
     text-decoration: none;
     color: #333;
-    position: relative;
-    padding: 10px 0; /* Adjust the padding to control vertical spacing */
-    cursor: pointer; /* Change cursor to pointer (hand) on hover */
-    font-weight: bold; /* Make the text bold */
+    padding: 10px 0;
 }
-
 
 nav a:hover, header h1:hover {
     color: #555;
@@ -66,82 +61,74 @@ nav a:hover::after, header h1:hover::after {
 .container {
     display: flex;
     justify-content: space-between;
-    padding: 60px; /* Adjust the padding as needed */
+    padding: 60px;
 }
 
 aside {
-    flex: 0 0 250px; /* Fixed width for the sidebar */
-    margin-right: 20px; /* Adjust the margin to control the space between the sidebar and the main content */
-    margin-left: 50px
+    flex: 0 0 250px;
+    margin: 0 20px 0 50px;
 }
-
 
 main {
     flex: 1;
-    padding-left: 20px; /* Adjust the padding as needed */
+    padding: 20px;
 }
 
-
-aside img {
+aside img, .profile-container img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
     display: block;
     margin: 0 auto 10px;
 }
 
+aside img {
+    width: 150px;
+    height: 150px;
+}
+
+.profile-container img {
+    width: 200px;
+    height: 220px;
+}
+
 .profile-details h2 {
     margin: 0;
-    font-size: 24px; /* Adjust the font size for the header */
+    font-size: 24px;
 }
 
-.profile-details p {
-    margin: 5;
-    line-height: 1.5; /* Ensure consistent line height */
-    font-size: 14px; /* Adjust the font size for the description */
-
+.profile-details p, .icon-text p {
+    margin: 5px 0;
+    line-height: 1.5;
+    font-size: 14px;
 }
 
-/* Use Flexbox to align icons and text vertically */
 .icon-text {
     display: flex;
     align-items: center;
-    margin: 14px 0;
+    margin: 5px 0; /* Adjust the spacing between the items */
 }
 
 .icon-text i {
-    margin-right: 10px; /* Adjust the spacing between icon and text */
-    font-size: 14px; /* Ensure consistent icon size */
-    line-height: 1; /* Ensure consistent line height */
-}
-
-.icon-text p {
-    margin: 0;
-    line-height: 1.5; /* Ensure consistent line height */
-    font-size: 14px; /* Ensure consistent font size */
-    align-items: center;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 1;
 }
 
 .icon-text a {
     text-decoration: none;
     color: #333;
-    display: flex; /* Ensure the link container uses flexbox */
+    display: flex;
     align-items: center;
-    gap: 8px; /* Adds space between the icon and text in the link */
+    gap: 8px;
 }
 
-main {
-    flex: 1;
-    padding: 20px;
+section {
+    margin-bottom: 40px;
 }
 
-.about, .research-interest {
-    margin-left: 20px; /* Ensures alignment with the rest of the content */
-    padding: 20px;
-}
-
-.about h2, .research-interest h2 {
-    margin-top: 0;
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 .research-interest ul {
@@ -172,190 +159,9 @@ main {
     position: sticky;
     top: 0;
     padding: 25px;
-    background-color: white; /* Adjust as needed */
-    border: none; /* Remove the border */
-    
-}
-
-.profile-container img {
-    display: block;
-    margin: 0 auto 10px auto; /* Center the image and add margin at the bottom */
-    border-radius: 50%; /* Make the image round */
-    width: 200px; /* Increase the size as needed */
-    height: 220px; /* Increase the size as needed */
-}
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    padding: 20px;
     background-color: white;
-    width: 80%; /* Adjust width to be consistent */
-    margin: 0 auto; /* Center the header */
-}
-
-.header-link {
-    text-decoration: none;
-    color: inherit; /* Inherit color from parent */
-    display: inline-block;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px; /* Adjust the font size if necessary */
-    display: inline-block;
-    position: relative;
-    cursor: pointer; /* Change cursor to pointer (hand) on hover */
-    font-weight: bold; /* Make the text bold */
-}
-
-nav {
-    margin-left: 20px; /* Adjust margin-left to align properly */
-    display: flex;
-    align-items: center; /* Aligns the links vertically to the center of the header */
-}
-
-nav a {
-    margin-left: 20px;
-    text-decoration: none;
-    color: #333;
-    position: relative;
-    padding: 10px 0; /* Adjust the padding to control vertical spacing */
-    cursor: pointer; /* Change cursor to pointer (hand) on hover */
-    font-weight: bold; /* Make the text bold */
-}
-
-nav a:hover, header h1:hover {
-    color: #555;
-}
-
-nav a:hover::after, header h1:hover::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 2px;
-    background: grey;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding: 60px; /* Adjust the padding as needed */
-}
-
-aside {
-    flex: 0 0 250px; /* Fixed width for the sidebar */
-    margin-right: 20px; /* Adjust the margin to control the space between the sidebar and the main content */
-    margin-left: 50px;
-}
-
-main {
-    flex: 1;
-    padding-left: 20px; /* Adjust the padding as needed */
-}
-
-aside img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    display: block;
-    margin: 0 auto 10px;
-}
-
-.profile-details h2 {
-    margin: 0;
-    font-size: 24px; /* Adjust the font size for the header */
-}
-
-.profile-details p {
-    margin: 5;
-    line-height: 1.5; /* Ensure consistent line height */
-    font-size: 14px; /* Adjust the font size for the description */
-}
-
-/* Use Flexbox to align icons and text vertically */
-.icon-text {
-    display: flex;
-    align-items: center;
-    margin: 14px 0;
-}
-
-.icon-text i {
-    margin-right: 10px; /* Adjust the spacing between icon and text */
-    font-size: 14px; /* Ensure consistent icon size */
-    line-height: 1; /* Ensure consistent line height */
-}
-
-.icon-text p {
-    margin: 0;
-    line-height: 1.5; /* Ensure consistent line height */
-    font-size: 14px; /* Ensure consistent font size */
-}
-
-.icon-text a {
-    text-decoration: none;
-    color: #333;
-    display: flex; /* Ensure the link container uses flexbox */
-    align-items: center;
-    gap: 8px; /* Adds space between the icon and text in the link */
-}
-
-main {
-    flex: 1;
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-section h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
+    border: none;
 }
 
 
-.download-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #6c757d;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-left: 10px;
-}
 
-.download-button:hover {
-    background-color: #5a6268;
-}
-
-.profile-container {
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0;
-    padding: 25px;
-    background-color: white; /* Adjust as needed */
-    border: none; /* Remove the border */
-}
-
-.profile-container img {
-    display: block;
-    margin: 0 auto 10px auto; /* Center the image and add margin at the bottom */
-    border-radius: 50%; /* Make the image round */
-    width: 200px; /* Increase the size as needed */
-    height: 220px; /* Increase the size as needed */
-}
