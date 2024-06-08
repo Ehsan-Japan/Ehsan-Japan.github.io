@@ -98,28 +98,30 @@ aside img {
 }
 
 .profile-details p {
-    margin: 0;
+    margin: 5;
     line-height: 1.5; /* Ensure consistent line height */
     font-size: 14px; /* Adjust the font size for the description */
+
 }
 
 /* Use Flexbox to align icons and text vertically */
 .icon-text {
     display: flex;
     align-items: center;
-    margin: 5px 0;
+    margin: 14px 0;
 }
 
 .icon-text i {
     margin-right: 10px; /* Adjust the spacing between icon and text */
-    font-size: 20px; /* Ensure consistent icon size */
+    font-size: 14px; /* Ensure consistent icon size */
     line-height: 1; /* Ensure consistent line height */
 }
 
 .icon-text p {
     margin: 0;
     line-height: 1.5; /* Ensure consistent line height */
-    font-size: 12px; /* Ensure consistent font size */
+    font-size: 14px; /* Ensure consistent font size */
+    align-items: center;
 }
 
 .icon-text a {
