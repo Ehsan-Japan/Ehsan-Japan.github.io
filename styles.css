@@ -87,3 +87,8 @@ main {
 .download-button:hover {
     background-color: #5a6268;
 }
+
+.icon {
+    margin-right: 8px;
+    color: #333;
+}
