@@ -137,9 +137,3 @@ main {
     background-color: #5a6268;
 }
 
-.cv {
-    padding: 10px; /* Adjust this value as needed */
-    margin: 0 auto;
-    border: 1px solid #ccc; /* Optional: add a border for visibility */
-    max-width: 600px; /* Optional: set a max-width to control the width */
-}
