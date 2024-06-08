@@ -60,7 +60,7 @@ aside {
     padding: 20px;
     width: 250px;
     box-sizing: border-box;
-    border-right: 1px solid #ddd;
+    /* border-right: 1px solid #ddd; */ /* Remove this line to delete the border */
 }
 
 aside img {
@@ -105,11 +105,12 @@ main {
     padding: 20px;
 }
 
-.about, .cv {
+.about, .research-interest {
+    margin-left: 20px; /* Ensures alignment with the rest of the content */
     padding: 20px;
 }
 
-.about h2, .cv h2 {
+.about h2, .research-interest h2 {
     margin-top: 0;
 }
 
