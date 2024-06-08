@@ -15,11 +15,6 @@ header {
     margin: 0 auto;
 }
 
-.header-link {
-    text-decoration: none;
-    color: inherit;
-    display: inline-block;
-}
 
 header h1, nav a {
     margin: 0;
@@ -37,10 +32,17 @@ nav {
 }
 
 nav a {
-    margin-left: 20px;
+    margin-left: 25px; /* Adjust this value to increase the spacing */
     text-decoration: none;
     color: #333;
+    position: relative;
     padding: 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.header-link {
+    margin-right: 10px; /* Add this to increase spacing between the header link and the first nav link */
 }
 
 nav a:hover, header h1:hover {
