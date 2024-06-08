@@ -73,3 +73,17 @@ main {
 .research-interest ul li {
     margin-bottom: 10px;
 }
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.download-button:hover {
+    background-color: #5a6268;
+}
