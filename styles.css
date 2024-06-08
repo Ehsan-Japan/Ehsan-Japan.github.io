@@ -6,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Style for header alignment and hover effect */
 header {
     background: #f4f4f4;
     padding: 20px;
@@ -24,6 +23,7 @@ header h1 {
 }
 
 nav {
+    margin-left: auto; /* Aligns the navigation to the right */
     display: flex;
 }
 
@@ -55,8 +55,10 @@ nav a:hover::after, header h1:hover::after {
     margin-left: 20px; /* Adds left margin to the main content container */
 }
 
+
+
 aside {
-    background: #f4f4f4;
+    background: #fff; /* Changes background color to white */
     padding: 20px;
     width: 250px;
     box-sizing: border-box;
