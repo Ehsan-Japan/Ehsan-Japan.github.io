@@ -14,6 +14,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-left: 20px; /* Adds left margin to the entire header */
+    font-size: 16px
 }
 
 header h1 {
@@ -51,17 +52,21 @@ nav a:hover::after, header h1:hover::after {
 
 .container {
     display: flex;
-    flex-direction: row;
-    margin-left: 20px; /* Adds left margin to the main content container */
+    justify-content: space-between;
+    padding: 60px; /* Adjust the padding as needed */
 }
 
 aside {
-    background: #fff; /* Changes background color to white */
-    padding: 20px;
-    width: 250px;
-    box-sizing: border-box;
-    /* border-right: 1px solid #ddd; */ /* Remove this line to delete the border */
+    flex: 0 0 250px; /* Fixed width for the sidebar */
+    margin-right: 20px; /* Adjust the margin to control the space between the sidebar and the main content */
 }
+
+
+main {
+    flex: 1;
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+
 
 aside img {
     border-radius: 50%;
@@ -71,17 +76,15 @@ aside img {
     margin: 0 auto 10px;
 }
 
-.profile-details {
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0;
-    padding: 10px;
-    background-color: white; /* Adjust as needed */
-    border: 1px solid #ddd; /* Optional: add a border for visibility */
+.profile-details h2 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size for the header */
 }
 
-.profile-details h2 {
-    margin-top: 0;
+.profile-details p {
+    margin: 0;
+    line-height: 1.5; /* Ensure consistent line height */
+    font-size: 14px; /* Adjust the font size for the description */
 }
 
 /* Use Flexbox to align icons and text vertically */
@@ -147,3 +150,13 @@ main {
 .download-button:hover {
     background-color: #5a6268;
 }
+
+.profile-container {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    background-color: white; /* Adjust as needed */
+    border: none; /* Remove the border */
+}
+
