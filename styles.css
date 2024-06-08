@@ -72,7 +72,12 @@ aside img {
 }
 
 .profile-details {
-    text-align: center;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    background-color: white; /* Adjust as needed */
+    border: 1px solid #ddd; /* Optional: add a border for visibility */
 }
 
 .profile-details h2 {
@@ -80,24 +85,30 @@ aside img {
 }
 
 /* Use Flexbox to align icons and text vertically */
-.profile-details p {
+.icon-text {
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 14px; /* Set the font size for the text */
-    font-family: Arial, sans-serif; /* Set the font family for the text */
-    color: #333; /* Set the font color for the text */
+    margin: 5px 0;
 }
 
-.profile-details p a {
+.icon-text i {
+    margin-right: 10px; /* Adjust the spacing between icon and text */
+    font-size: 20px; /* Ensure consistent icon size */
+    line-height: 1; /* Ensure consistent line height */
+}
+
+.icon-text p {
+    margin: 0;
+    line-height: 1.5; /* Ensure consistent line height */
+    font-size: 12px; /* Ensure consistent font size */
+}
+
+.icon-text a {
     text-decoration: none;
     color: #333;
-    margin-left: 8px; /* Adds space between the icon and text in the link */
-}
-
-.profile-details p i {
-    font-size: 16px; /* Adjust the icon size if needed */
-    margin-right: 8px; /* Adds space between the icon and text */
+    display: flex; /* Ensure the link container uses flexbox */
+    align-items: center;
+    gap: 8px; /* Adds space between the icon and text in the link */
 }
 
 main {
@@ -135,27 +146,4 @@ main {
 
 .download-button:hover {
     background-color: #5a6268;
-}
-
-.icon-text {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-}
-
-.icon-text i {
-    margin-right: 10px; /* Adjust the spacing between icon and text */
-    font-size: 20px; /* Ensure consistent icon size */
-    line-height: 1; /* Ensure consistent line height */
-}
-
-.icon-text p {
-    margin: 0;
-    line-height: 1.5; /* Ensure consistent line height */
-    font-size: 12px; /* Ensure consistent font size */
-}
-
-.profile-details p {
-    margin: 0;
-    line-height: 1.5; /* Ensure consistent line height */
 }
