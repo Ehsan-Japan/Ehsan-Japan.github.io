@@ -137,3 +137,25 @@ main {
     background-color: #5a6268;
 }
 
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.icon-text i {
+    margin-right: 10px; /* Adjust the spacing between icon and text */
+    font-size: 20px; /* Ensure consistent icon size */
+    line-height: 1; /* Ensure consistent line height */
+}
+
+.icon-text p {
+    margin: 0;
+    line-height: 1.5; /* Ensure consistent line height */
+    font-size: 12px; /* Ensure consistent font size */
+}
+
+.profile-details p {
+    margin: 0;
+    line-height: 1.5; /* Ensure consistent line height */
+}
