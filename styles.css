@@ -304,6 +304,19 @@ section h2 {
     margin-left: 10px;
 }
 
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+strong a {
+    font-weight: bold;
+}
+
 .download-button:hover {
     background-color: #5a6268;
 }
