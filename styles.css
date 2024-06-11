@@ -85,10 +85,6 @@ aside img {
     height: 150px;
 }
 
-.profile-container img {
-    width: 200px;
-    height: 220px;
-}
 
 .profile-details h2 {
     margin: 0;
@@ -154,14 +150,7 @@ section h2 {
     background-color: #5a6268;
 }
 
-.profile-container {
-    position: -webkit-sticky; /* For Safari */
-    position: sticky;
-    top: 0;
-    padding: 25px;
-    background-color: white;
-    border: none;
-}
+
 
 
 body {
@@ -326,6 +315,12 @@ section h2 {
     padding: 25px;
     background-color: white;
     border: none;
+}
+
+.profile-container img {
+    width: 250px; /* Adjust this value as needed */
+    height: 380; /* Maintains the aspect ratio */
+
 }
 
 .image-caption {
