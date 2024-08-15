@@ -31,6 +31,7 @@ Research objectives
 ======
 *Automated and high-speed voltage tuning techniques for spin qubits
 ![tuning](/images/tuning2.png){: .center width="800px"} 
+
 *Development of spin qubit stabilization using feedback control
 ![tuning](/images/tuning.png){: .center width="800px"} 
 
