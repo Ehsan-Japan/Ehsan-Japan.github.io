@@ -28,6 +28,13 @@ To perform quantum computation using spin qubits, the electron spins in multiple
 ![tuning](/images/tuning.png){: .center width="800px"} 
 
 
+Research objectives
+======
+*Automated and high-speed voltage tuning techniques for spin qubits
+
+*Development of spin qubit stabilization using feedback control
+
+
 Projects
 ======
 
