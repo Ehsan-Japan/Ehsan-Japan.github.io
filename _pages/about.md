@@ -17,7 +17,6 @@ Research Interest
 My main research interest lies in the intersection of machine learning and Quantum computing.
 Currently I am doing research on developping methods for automatically tuning spin qubits in semiconductor quantum dots by using deep learning. 
 
-## Unordered Lists (Nested)
 I use machine learning and quantum dot simulation while performing experiments to explore new questions in the following directions:
   * How can we use machine learning to improve qubit quality?
   * How to accelerate/automate the tuning of semiconductor spin qubits?
@@ -31,9 +30,9 @@ To perform quantum computation using spin qubits, the electron spins in multiple
 Research objectives
 ======
 *Automated and high-speed voltage tuning techniques for spin qubits
-
+![tuning](/images/tuning2.png){: .center width="800px"} 
 *Development of spin qubit stabilization using feedback control
-
+![tuning](/images/tuning.png){: .center width="800px"} 
 
 Projects
 ======
