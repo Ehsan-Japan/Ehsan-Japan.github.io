@@ -22,7 +22,7 @@ I use machine learning and quantum dot simulation while performing experiments t
   * How to accelerate/automate the tuning of semiconductor spin qubits?
 
 
-To perform quantum computation using spin qubits, the electron spins in multiple quantum dots must be tuned to a desirable state with optimal tunnel coupling and detuning for effective qubit operation. In addition, fast characterization and automation of these adjustments are essential for realizing scalable quantum processors.
+<!-- To perform quantum computation using spin qubits, the electron spins in multiple quantum dots must be tuned to a desirable state with optimal tunnel coupling and detuning for effective qubit operation. In addition, fast characterization and automation of these adjustments are essential for realizing scalable quantum processors. -->
 
 ![tuning](/images/tuning.png){: .center width="800px"} 
 
@@ -46,9 +46,6 @@ For my master's thesis, I developed a closed-loop feedback system to tune the fi
 This method was inspired by the Ray-based Classification framework. By effectively tuning quantum dot devices into single-dot regimes, I aimed to address scalability challenges in spin qubit systems by minimizing the need for manual tuning.
 
 ![Forming single dot by ray method](/images/ray_method.png){: .center width="900px"} 
-
-
-
 <!-- ## Locations of key files/directories
 
 - **Basic config options:** `_config.yml`
