@@ -15,6 +15,7 @@ I do research on automated tuning of gate-defined quantum dots.
 Research Interest
 ======
 My main research interest lies in the intersection of machine learning and Quantum computing.
+
 Currently I am doing research on developping methods for automatically tuning spin qubits in semiconductor quantum dots by using deep learning. 
 
 I use machine learning and quantum dot simulation while performing experiments to explore new questions in the following directions:
