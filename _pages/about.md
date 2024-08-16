@@ -29,10 +29,10 @@ I use machine learning and quantum dot simulation while performing experiments t
 
 Research objectives
 ======
-*Automated and high-speed voltage tuning techniques for spin qubits
+- **Automated and high-speed voltage tuning techniques for spin qubits**
 ![tuning](/images/tuning2.png){: .center width="800px"} 
 
-*Development of spin qubit stabilization using feedback control
+- **Development of spin qubit stabilization using feedback control**
 ![tuning](/images/tuning.png){: .center width="800px"} 
 
 Projects
@@ -41,9 +41,10 @@ Projects
 
 ## Time-Efficient Tuning of Quantum dots into Single Dot state
 
-For my master's thesis, I developed a closed-loop feedback system to tune the fine gates of a quadruple quantum dot device into a single dot state. A Long Short-Term Memory (LSTM) neural network was used to train a machine learning model capable of distinguishing between currents with Coulomb peak traces and those without. 
-
-This method was inspired by the Ray-based Classification framework. By effectively tuning quantum dot devices into single-dot regimes, I aimed to address scalability challenges in spin qubit systems by minimizing the need for manual tuning.
+For my master's thesis, I developed a closed-loop feedback system to tune the fine gates of a quadruple quantum dot device into a single dot state. 
+<!-- A Long Short-Term Memory (LSTM) neural network was used to train a machine learning model capable of distinguishing between currents with Coulomb peak traces and those without. 
+This method was inspired by the Ray-based Classification framework. -->
+By effectively tuning quantum dot devices into single-dot regimes, I aimed to address scalability challenges in spin qubit systems by minimizing the need for manual tuning.
 
 ![Forming single dot by ray method](/images/ray_method.png){: .center width="900px"} 
 <!-- ## Locations of key files/directories
