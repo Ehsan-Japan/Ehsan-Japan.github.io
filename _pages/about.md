@@ -19,14 +19,14 @@ Currently I am doing research on developping methods for automatically tuning sp
   * How to accelerate/automate the tuning of semiconductor spin qubits?
 
 ## Research Objectives
-
+To perform quantum computation using spin qubits, the electron spins in multiple quantum dots must be tuned to a desirable state with optimal tunnel coupling and detuning for effective qubit operation. In addition, fast characterization and automation of these adjustments are essential for realizing scalable quantum processors.I work on the following topics:
 ### Automated and High-Speed Voltage Tuning Techniques for Spin Qubits
 ![tuning](/images/tuning2.png)
 
 ### Development of Spin Qubit Stabilization Using Feedback Control
 ![tuning](/images/tuning.png)
 
-<!-- To perform quantum computation using spin qubits, the electron spins in multiple quantum dots must be tuned to a desirable state with optimal tunnel coupling and detuning for effective qubit operation. In addition, fast characterization and automation of these adjustments are essential for realizing scalable quantum processors. -->
+
 
 ![tuning](/images/tuning.png){: .center width="800px"} 
 
