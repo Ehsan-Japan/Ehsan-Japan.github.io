@@ -25,7 +25,7 @@ I use machine learning and quantum dot simulation while performing experiments t
 ## Research Projects
 ### 1. Automated and Fast Voltage Tuning Methods for Spin Qubits
 To perform quantum computation using spins of electrons in gated-defined quantum dots, electrons must be confined within a precisely controlled potential state.Typically, electrons in quantum dots experience a random, non-uniform potential (left), which needs to be transformed into a controlled, desired potential (right), an essential step in performing quantum gate operations.<br>
-
+![tuning](/images/tuning2.png)
 
 My research focuses on creating a fast, autotuning method to adjust potential in quantum dots to form a single quantum dot.[Read more](Research.md)
 <!-- This method is currently being extended for tuning to a double dot configuration.  -->
