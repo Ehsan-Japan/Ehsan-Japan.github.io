@@ -22,6 +22,7 @@ I use machine learning and quantum dot simulation while performing experiments t
   * How can we use machine learning to improve qubit quality?
   * How to accelerate/automate the tuning of semiconductor spin qubits?
 
+Manual tuning by an experimenter can be scaled up and made more efficient through auto-tuning by an AI agent, allowing for the simultaneous adjustment of multiple parameters.
 
 <!-- To perform quantum computation using spin qubits, the electron spins in multiple quantum dots must be tuned to a desirable state with optimal tunnel coupling and detuning for effective qubit operation. In addition, fast characterization and automation of these adjustments are essential for realizing scalable quantum processors. -->
 
