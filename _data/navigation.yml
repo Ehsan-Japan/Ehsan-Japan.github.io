@@ -2,8 +2,8 @@
 main:
   
   - title: "CV"
-    url: /files/CV_ehsanalizadehkashtiban@gmail.com.pdf
-    
+    url: /cv/
+    #url: /files/CV_ehsanalizadehkashtiban@gmail.com.pdf
   # - title: "Publications"
   #   url: /publications/
   - title: "Research"
