@@ -12,36 +12,25 @@ I am a second-year physics master student in the [Department of Quantum System E
 I do research on automated tuning of gate-defined quantum dots.
 I am advised by Professor Takafumi Fujita and Professor Akira Oiwa.
 
-Research Interests
+# Research Interests
 ======
 My main research interest lies in the intersection of Machine learning and Quantum computing.
-Currently I am doing research on developping methods for automatically tuning spin qubits in semiconductor quantum dots by using deep learning. I use machine learning and quantum dot simulation while performing experiments to explore new questions in the following directions:
+Currently I am doing research on developping methods for automatically tuning spin qubits in semiconductor quantum dots. 
+I use machine learning and quantum dot simulation while performing experiments to answer the following questions:
   * How can machine learning improve qubit quality?
   * How can we accelerate and automate the tuning of semiconductor spin qubits?
-
+  * How can we automatically extract virtual gates to mitigate cross-coupling effects in spin qubits for quantum computing
 
 ## Research Objectives
+======
 
-### 1.Development of Automated and Fast Voltage Tuning Methods for Spin Qubit
-To perform quantum computation using spin qubits, the electron spins must be tuned to a desirable potential state.
-In experiments, intial system starts from a random, non-uniform potential (left) to a controlled where as uniform potential (right) is requirted to perform quantum computationm. [Read more](Research.md)
-
+## 1. Automated and Fast Voltage Tuning Methods for Spin Qubits
+For quantum computation, electrons must be carefully tuned to a desired potential state. Typically, the system begins with a random, non-uniform potential (left), which needs to be transformed into a controlled, uniform potential (right).
 ![tuning](/images/tuning2.png)
-Heuristic methods are used to a just  fine gates to determine
+My research focuses on creating a fast, automated method to adjust potential landscapes to form a single quantum dot by using long short memory neural network. This method is based on [Ray-based classification framework](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020335) and is currently being extended for tuning to a double dot configuration. [Read more](Research.md)
 
-
-In my research I am working on establshing a fast methd to determine potential landscapes where quantum dot is capbale of forming a single dot recursivley by adjusting using Ray-based classification framework.This method currently is under develoment for  tuning to double dot configuraion 
-
-
-### 2."Development of Virtual Gate Extraction Techniques for cross-coupling mitigation
-
-Spin qubits in quantum dots are one of the major platforms for fault-tolerant quantum computing, but the close proximity of surface gate electrodes leads to significant cross-coupling effects, posing a major challenge to the scalability of quantum dots.
-
-Curently in my research I am working on establishing an end-to-end and fast method to extract virtual gates in simulated double quantum dot stabilty diagram.The method is based on extracting the gradients in gate voltage space of different
-charge transitions in multiple two-dimensional charge stability diagrams to determine the system’s
-virtual voltages.[Read more](Research.md)
-
- 
+## 2. Virtual Gate Extraction Techniques for Cross-Coupling Mitigation
+Although spin qubits in quantum dots are a key platform for fault-tolerant quantum computing, the close proximity of surface gate electrodes causes cross-coupling effects, which challenge scalability. 
 ![tuning](/images/virtual_gate.png)
 
-
+I’m currently developing a fast, end-to-end method to extract virtual gates in simulated double quantum dot stability diagrams. This method uses image recognition to detect transition lines and applies a transformation matrix recursively, updating it based on angle distribution until horizontal and vertical angles are achieved.[Read more](Research.md)

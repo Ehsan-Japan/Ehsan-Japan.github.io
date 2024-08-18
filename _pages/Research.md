@@ -4,9 +4,6 @@ title: "Research"
 permalink: /Research/
 author_profile: true
 ---
-
-# Projects
-
 ## Time-Efficient Tuning of Quantum Dots into Single Dot State
 
 For my master's thesis, I developed a closed-loop feedback system to tune the fine gates of a quadruple quantum dot device into a single dot state. 
