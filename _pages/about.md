@@ -20,11 +20,13 @@ Currently I am doing research on developping methods for automatically tuning sp
 I use machine learning and quantum dot simulation while performing experiments to answer the following questions:
   * How can we accelerate and automate the tuning procedure of semiconductor spin qubits?
   * How can we automatically extract virtual gates to mitigate cross-coupling effects in Quantum dots? 
+![tuning](/images/tuning.png)
 
-## Research Objectives
+## Research Projects
 ### 1. Automated and Fast Voltage Tuning Methods for Spin Qubits
 To perform quantum computation using spins of electrons in gated-defined quantum dots, electrons must be confined within a precisely controlled potential state.Typically, electrons in quantum dots experience a random, non-uniform potential (left), which needs to be transformed into a controlled, desired potential (right), an essential step in performing quantum gate operations.<br>
 ![tuning](/images/tuning2.png)
+
 My research focuses on creating a fast, autotuning method to adjust potential in quantum dots to form a single quantum dot.[Read more](Research.md)
 <!-- This method is currently being extended for tuning to a double dot configuration.  -->
 
@@ -32,4 +34,4 @@ My research focuses on creating a fast, autotuning method to adjust potential in
 Although spin qubits in quantum dots are a key platform for fault-tolerant quantum computing, the close proximity of surface gate electrodes causes cross-coupling effects, which challenge scalability. 
 ![tuning](/images/virtual_gate.png)
 
-I’m currently developing an end-to-end method to extract virtual gates in simulated double quantum dot stability diagrams.This method employs image recognition to detect transition lines in the stability diagrams and applies a transformation matrix to the voltage space recursively, adjusting the angle distribution until horizontal and vertical angles are achieved.[Read more](Research.md)
+I’m currently developing an end-to-end method to extract virtual gates in simulated double quantum dot stability diagrams.This method used image recognition to detect transition lines in the stability diagrams and applies a transformation matrix to the voltage space recursively, adjusting the angle distribution until horizontal and vertical angles are achieved.[Read more](Research.md)
