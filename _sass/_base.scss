@@ -313,3 +313,23 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+
+.author__avatar img {
+  width: 150px; /* Adjust the size of the avatar */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the image circular */
+  margin-bottom: 15px; /* Add some space below the avatar */
+}
+
+.author__content {
+  max-width: 600px; /* Control the width of the bio text */
+  margin: 0 auto; /* Center the content */
+  font-size: 1.2em; /* Adjust the font size */
+  line-height: 1.6; /* Adjust the line height for readability */
+}
+
+.author__bio {
+  margin-top: 10px; /* Add some space above the bio text */
+  color: #333; /* Set a color for the bio text */
+}
