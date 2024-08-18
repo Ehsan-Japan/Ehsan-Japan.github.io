@@ -16,16 +16,3 @@ By effectively tuning quantum dot devices into single-dot regimes, I aimed to ad
 
 ![Forming single dot by ray method](/images/ray_method.png)
 
-## Research Objectives
-
-### Automated and High-Speed Voltage Tuning Techniques for Spin Qubits
-![tuning](/images/tuning2.png)
-
-### Development of Spin Qubit Stabilization Using Feedback Control
-![tuning](/images/tuning.png)
-
-
-
-<!-- {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %} -->
