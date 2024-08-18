@@ -8,7 +8,11 @@ redirect_from:
 ---
 
 <!-- ![Illustration of automated tuning](/images/automated.png){: .align-right width="200px"}  -->
-![autotuning agent](/images/automated.png)
+
+<!-- <div style="text-align: right;">
+    <img src="/images/robot.png" alt="autotuning agent" style="width: 300px; position: absolute; top: 0; right: 0;">
+</div> -->
+<!-- ![autotuning agent](/images/automated.png){: .align-right width="300px"} -->
 I am a second-year physics master student in the [Department of Quantum System Electronics](https://www.sanken.osaka-u.ac.jp/labs/qse/indexEN.html) at Osaka University, Japan.
 I do research on automated tuning of gate-defined quantum dots.
 I am advised by Professor Takafumi Fujita and Professor Akira Oiwa.
@@ -23,7 +27,6 @@ I use machine learning and quantum dot simulation while performing experiments t
   * How can we automatically extract virtual gates to mitigate cross-coupling effects in spin qubits for quantum computing
 
 ## Research Objectives
-
 ### 1. Automated and Fast Voltage Tuning Methods for Spin Qubits
 To perform quantum computation, electrons must be carefully tuned to a desired potential state. Typically, the system begins with a random, non-uniform potential (left), which needs to be transformed into a controlled, uniform potential (right).
 ![tuning](/images/tuning2.png)
