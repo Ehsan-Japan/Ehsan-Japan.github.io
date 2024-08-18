@@ -15,22 +15,21 @@ I am advised by Professor Takafumi Fujita and Professor Akira Oiwa.
 
 ## Research Interests
 
-My main research interest lies in the intersection of Machine learning and Quantum computing.
-Currently I am doing research on developping methods for automatically tuning spin qubits in semiconductor quantum dots. 
+My main research interest lies in the intersection of Machine Learning and Quantum Computing.
+Currently I am doing research on developping methods for automatically tuning spin qubits in Semiconductor Quantum dots. 
 I use machine learning and quantum dot simulation while performing experiments to answer the following questions:
-  * How can machine learning improve qubit quality?
-  * How can we accelerate and automate the tuning of semiconductor spin qubits?
-  * How can we automatically extract virtual gates to mitigate cross-coupling effects in spin qubits for quantum computing
+  * How can we accelerate and automate the tuning procedure of semiconductor spin qubits?
+  * How can we automatically extract virtual gates to mitigate cross-coupling effects in Quantum dots? 
 
 ## Research Objectives
 ### 1. Automated and Fast Voltage Tuning Methods for Spin Qubits
-To perform quantum computation, electrons must be carefully tuned to a desired potential state. Typically, the system begins with a random, non-uniform potential (left), which needs to be transformed into a controlled, uniform potential (right).
+To perform quantum computation using spins of electrons in gated-defined quantum dots, electrons must be confined within a precisely controlled potential state.Typically, electrons in quantum dots experience a random, non-uniform potential (left), which needs to be transformed into a controlled, desired potential (right), an essential step in performing quantum gate operations.<br>
 ![tuning](/images/tuning2.png)
-
-My research focuses on creating a fast, automated method to adjust potential landscapes to form a single quantum dot by using long short memory neural network. This method  is currently being extended for tuning to a double dot configuration. [Read more](Research.md)
+My research focuses on creating a fast, autotuning method to adjust potential in quantum dots to form a single quantum dot.[Read more](Research.md)
+<!-- This method is currently being extended for tuning to a double dot configuration.  -->
 
 ### 2. Virtual Gate Extraction Techniques for Cross-Coupling Mitigation
 Although spin qubits in quantum dots are a key platform for fault-tolerant quantum computing, the close proximity of surface gate electrodes causes cross-coupling effects, which challenge scalability. 
 ![tuning](/images/virtual_gate.png)
 
-I’m currently developing an end-to-end method to extract virtual gates in simulated double quantum dot stability diagrams. This method uses image recognition to detect transition lines and applies a transformation matrix recursively, updating it based on angle distribution until horizontal and vertical angles are achieved.[Read more](Research.md)
+I’m currently developing an end-to-end method to extract virtual gates in simulated double quantum dot stability diagrams.This method employs image recognition to detect transition lines in the stability diagrams and applies a transformation matrix to the voltage space recursively, adjusting the angle distribution until horizontal and vertical angles are achieved.[Read more](Research.md)
