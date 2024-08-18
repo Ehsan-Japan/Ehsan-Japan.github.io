@@ -13,3 +13,4 @@ By effectively tuning quantum dot devices into single-dot regimes, I aimed to ad
 
 ![Forming single dot by ray method](/images/ray_method.png)
 
+<!-- is based on [Ray-based classification framework](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020335) and -->
