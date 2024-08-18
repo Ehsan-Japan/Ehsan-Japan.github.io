@@ -12,14 +12,10 @@ I am a second-year physics master student in the [Department of Quantum System E
 I do research on automated tuning of gate-defined quantum dots. 
 <p>I am advised by Professor Takafumi Fujita and Professor Akira Oiwa.</p>
 
-
 Research Interest
 ======
 My main research interest lies in the intersection of machine learning and Quantum computing.
-
-Currently I am doing research on developping methods for automatically tuning spin qubits in semiconductor quantum dots by using deep learning. 
-
-I use machine learning and quantum dot simulation while performing experiments to explore new questions in the following directions:
+Currently I am doing research on developping methods for automatically tuning spin qubits in semiconductor quantum dots by using deep learning. I use machine learning and quantum dot simulation while performing experiments to explore new questions in the following directions:
   * How can we use machine learning to improve qubit quality?
   * How to accelerate/automate the tuning of semiconductor spin qubits?
 
@@ -30,11 +26,5 @@ Manual tuning by an experimenter can be scaled up and made more efficient throug
 ![tuning](/images/tuning.png){: .center width="800px"} 
 
 
-Research objectives
-======
-- **Automated and high-speed voltage tuning techniques for spin qubits**
-![tuning](/images/tuning2.png){: .center width="800px"} 
 
-- **Development of spin qubit stabilization using feedback control**
-![tuning](/images/tuning.png){: .center width="800px"} 
 
