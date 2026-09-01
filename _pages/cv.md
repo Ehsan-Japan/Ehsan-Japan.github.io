@@ -15,7 +15,7 @@ redirect_from:
 </a>
 
 <span style="font-size: 100%;">日本語版はこちら：&nbsp;&nbsp;&nbsp;</span>
-<a href="{{base.url}}/files/CV_Japanese.pdf?v=2026-09-02" target="_blank" class="btn btn-success">
+<a href="{{base.url}}/files/CV_Japanese.pdf?v=2026-09-02b" target="_blank" class="btn btn-success">
     <span style="font-size: 120%;">履歴書（日本語）</span>
 </a>
 
